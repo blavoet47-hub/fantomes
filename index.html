@@ -3,18 +3,59 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fantômes — Débusque les abonnements que tu paies sans t’en servir</title>
-<meta name="description" content="Dépose ton relevé, vois en 2 minutes les prélèvements oubliés et ce qu’ils te coûtent par an.">
+<title>Fantômes — Retrouve les abonnements que tu paies sans t’en servir</title>
+<meta name="description" content="Un abonnement oublié à 9,99 € par mois, c’est 120 € par an. Retrouve les tiens et résilie-les en 2 minutes.">
+<meta property="og:title" content="Fantômes — Retrouve les abonnements que tu paies sans t’en servir">
+<meta property="og:description" content="Un abonnement oublié à 9,99 € par mois, c’est 120 € par an. Audit complet à 19 €, remboursé si tu n’y gagnes rien.">
+<meta property="og:type" content="website">
 <style>
-  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f6f1e7;color:#1d1b18;font-family:Georgia,serif;text-align:center;padding:24px}
-  h1{font-size:2rem;line-height:1.15;margin:0 0 12px}
-  p{font-size:1.1rem;margin:0}
+:root{--fond:#f6f1e7;--encre:#1d1b18;--accent:#d9482b;--doux:#6b645a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font-family:Georgia,"Times New Roman",serif;line-height:1.5;font-size:18px}
+main{max-width:560px;margin:0 auto;padding:28px 20px 48px}
+.marque{font-size:.95rem;letter-spacing:.12em;text-transform:uppercase;color:var(--doux);margin:0 0 28px}
+h1{font-size:2.15rem;line-height:1.1;margin:0 0 16px}
+h2{font-size:1.4rem;margin:40px 0 12px}
+p{margin:0 0 14px}
+.douleur{border-left:4px solid var(--accent);padding-left:14px;margin:24px 0}
+.bouton{display:block;width:100%;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:bold;font-size:1.15rem;padding:18px 16px;border-radius:12px}
+.petit{font-size:.9rem;color:var(--doux);text-align:center;margin-top:10px}
+ul{padding-left:20px;margin:0 0 14px}
+li{margin-bottom:10px}
+.prix{border:2px solid var(--encre);border-radius:14px;padding:20px;margin-top:40px}
+.prix .montant{font-size:2.4rem;font-weight:bold;margin:0}
+.garantie{background:#fff;border-radius:10px;padding:14px;margin:16px 0;font-size:.98rem}
+footer{max-width:560px;margin:0 auto;padding:0 20px 40px;font-size:.85rem;color:var(--doux);text-align:center}
 </style>
 </head>
 <body>
 <main>
-  <h1>Fantômes</h1>
-  <p>Bientôt en ligne.</p>
+  <p class="marque">Fantômes</p>
+  <h1>Retrouve les abonnements que tu paies sans t’en servir.</h1>
+  <p>Un essai jamais résilié, un service remplacé, une option activée une fois : ces prélèvements sont petits, donc invisibles. Et ils tournent pendant des années.</p>
+  <div class="douleur">
+    <p><strong>9,99 € par mois oubliés, c’est 120 € par an.</strong><br>Trois abonnements fantômes, c’est 360 €. Pour rien.</p>
+  </div>
+  <a class="bouton" href="https://buy.stripe.com/test_eVqdR9bY04Cc76DfEj0sU00">Commencer mon audit — 19 €</a>
+  <p class="petit">Paiement unique. Pas d’abonnement.</p>
+
+  <h2>Ce que tu obtiens</h2>
+  <ul>
+    <li><strong>Tes prélèvements réguliers repérés</strong> sur ton relevé bancaire.</li>
+    <li><strong>Classés par coût annuel</strong>, pour voir d’abord ceux qui pèsent le plus.</li>
+    <li><strong>Une lettre de résiliation prête à envoyer</strong> pour chacun.</li>
+  </ul>
+
+  <div class="prix">
+    <p class="montant">19 €</p>
+    <p>Une seule fois. Un seul abonnement oublié résilié rembourse déjà l’audit.</p>
+    <div class="garantie">
+      <strong>Satisfait ou remboursé pendant 14 jours.</strong> Écris à blavoet47390@gmail.com, tu es remboursé intégralement, sans justification, sous 5 jours.
+    </div>
+    <a class="bouton" href="https://buy.stripe.com/test_eVqdR9bY04Cc76DfEj0sU00">Commencer mon audit — 19 €</a>
+    <p class="petit">Paiement sécurisé par Stripe. Résultat envoyé par email.</p>
+  </div>
 </main>
+<footer>© Fantômes</footer>
 </body>
 </html>
